@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'EntezareZohoor2';
+    src: url(https://fonts.google.com/specimen/Inter);
+    font-weight: normal;
+    font-style: normal;
+}
+.box{
+    display:flex;
+    padding:10px;
+    box-sizing: border-box;
+    border-radius:6px;
+    border: 1px solid #ECEBED;
+    width: 240px;
+    height: 48px;
+    margin: 24px auto;
+}
+.box:hover{
+    border: 2px solid mediumpurple;
+}
+input{
+    font-family:'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+form{
+    font-family: 'Inter', serif;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.password {
+    position: relative;
+
+}
+.password-control {
+    position: absolute;
+    top: 11px;
+    width: 50px;
+    height: 50px;
+    background: url(/Shape.svg)no-repeat;
+}
+.password-control.view {
+    background: url(/Shape.svg)no-repeat;
+}
+.my_button{
+    display:flex;
+    padding: 8px 10px 10px 85px;
+    box-sizing: border-box;
+    border-radius:6px;
+    width: 240px;
+    height: 48px;
+    margin: 24px auto;
+    background-color: #6979F8;
+    border: 1px solid #6979F8;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+}
+.my_button:hover{
+    border: 3px solid mediumpurple;
+}
+.place{
+    margin-left: 90px;
+    margin-top: 8px;
+}
